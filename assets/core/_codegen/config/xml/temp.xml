@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <template from="phpClass.tmp" to="/home/content/m/a/d/madisonbars/html/ride2shoot/assets/core/php/data_layer/*.php" overwrite="false" capitalize="true"></template>
+    <template from="phpClassBase.tmp" to="/home/content/m/a/d/madisonbars/html/ride2shoot/assets/core/php/data_layer/BaseClasses/*Base.php" overwrite="true" capitalize="true"></template>
+    <connTemplate from="phpClassConn.tmp" to="/home/content/m/a/d/madisonbars/html/ride2shoot/assets/core/php/data_layer/BaseClasses/Conn.php" overwrite="true" capitalize="true"></connTemplate>
+</root>

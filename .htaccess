@@ -1,0 +1,7 @@
+AddHandler x-httpd-php5 .php
+AddHandler x-httpd-php .php4
+#Alias /include /home/content/m/a/d/madisonbars/html/lab/projectunity/include
+#<Directory /home/content/m/a/d/madisonbars/html/lab/projectunity/include>
+#Order allow,deny
+#Allow from all
+#</Directory>

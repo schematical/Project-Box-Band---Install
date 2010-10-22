@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/186/BoxBand/assets/core/php/data_layer/BaseClasses
+END
+UserBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/186/BoxBand/assets/core/php/data_layer/BaseClasses/UserBase.php
+END
+Conn.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/186/BoxBand/assets/core/php/data_layer/BaseClasses/Conn.php
+END
+UserMetaBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/186/BoxBand/assets/core/php/data_layer/BaseClasses/UserMetaBase.php
+END
+SettingBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/186/BoxBand/assets/core/php/data_layer/BaseClasses/SettingBase.php
+END

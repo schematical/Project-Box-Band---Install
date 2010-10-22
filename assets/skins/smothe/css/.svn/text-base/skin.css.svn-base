@@ -1,0 +1,129 @@
+/* 
+    Document   : skin.css
+    Created on : Mar 4, 2010, 10:17:47 AM
+    Author     : user1a
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-color:blue;
+    color:white;
+    font-family: Tahoma;
+}
+
+.bodyContainer{
+    width:1200Px;
+}
+.bodyInner{
+    width:700Px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20Px;
+}
+#navBarHolderDiv{
+    position:fixed;
+    top:0Px;
+    left:0Px;
+    width:100%;
+    heigth:20Px;
+    padding:5Px;
+    z-index:1000;
+}
+#navBarHolderDiv ul{
+	margin:0;
+	padding:0;
+}
+
+#navBarHolderDiv li{
+	width:100px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+
+#navBarHolderDiv a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#navBarHolderDiv p{
+	padding:0px 5px;
+}
+
+#navBarHolderDiv .subtext{
+    padding-top:15px;
+}
+
+/*Menu Color Classes*/
+#navBarHolderDiv .green{background:#6AA63B url('images/green-item-bg.jpg') top left no-repeat;}
+#navBarHolderDiv .yellow{background:#FBC700 url('images/yellow-item-bg.jpg') top left no-repeat;}
+#navBarHolderDiv .red{background:#D52100 url('images/red-item-bg.jpg') top left no-repeat;}
+#navBarHolderDiv .purple{background:#5122B4 url('images/purple-item-bg.jpg') top left no-repeat;}
+#navBarHolderDiv .blue{background:#0292C0 url('images/blue-item-bg.jpg') top left no-repeat;}
+#navBarLinkDiv{
+    float:left;
+    font-size:20pt;
+    margin-left:10Px;
+}
+#navBarLinkDiv a, a:visited, a:hover{
+    color:white;
+}
+#playerBar{
+    position:fixed;
+    width:900Px;
+    bottom:0Px;
+    height:20Px;
+    padding:5Px;
+    border: thick black solid;
+    background-color: green;
+}
+.column_450{
+    width:450Px;
+    float:left;
+    padding:10Px;
+    border:thin black solid;
+}
+.column_160{
+    width:160Px;
+    float:left;
+    padding:10Px;
+    border:thin black solid;
+}
+/* video stuff */
+.roundabout-holder {
+    list-style: none;
+    width: 100%;
+    height: 10em;
+    margin: 1em auto;
+    color:black;
+}
+.roundabout-moveable-item {
+    height: 150Px;
+    width: 200Px;
+    border: 1px dotted #999;
+    background-color: #111111;
+    font-size: 2em;
+    cursor: pointer;
+    color:black;
+}
+.roundabout-in-focus {
+    cursor: auto;
+}
+li{
+    color:black;
+}
+#rotationHolderDiv{
+    margin-top:50Px;
+    z-index:500Px;
+}

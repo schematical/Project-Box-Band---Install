@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+    <displayName>New Red Moon</displayName>
+    <version>0.1</version>
+    <description>This is a skin I am whippping up for the New Red Moon, just to see how long it takes</description>
+    <author>Matt L</author>
+    <website></website>
+    <useAjaxPlayBar>true</useAjaxPlayBar>
+    <requiredAddons>
+        <addon>splice</addon>
+        <addon>twitterlink</addon>
+    </requiredAddons>
+</skin>

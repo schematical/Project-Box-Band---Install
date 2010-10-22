@@ -1,0 +1,10 @@
+<addon>
+    <displayName>Splice Editor</displayName>
+    <version>0.1</version>
+    <author>Matt L</author>
+    <description>This tool will allow a loged in admin to change areas of a webpage</description>
+    <website>http://www.3villabs.com</website>
+    <customSettingsPage>/_settings.php</customSettingsPage>
+    <settings>
+    </settings>
+</addon>

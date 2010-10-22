@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+    <displayName>Smothe</displayName>
+    <version>0.1</version>
+    <description>This is just skin is enhanced with a little jQuery</description>
+    <author>Matt L</author>
+    <website></website>
+    <useAjaxPlayBar>true</useAjaxPlayBar>
+</skin>

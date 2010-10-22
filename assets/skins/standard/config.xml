@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+    <displayName>Standard</displayName>
+    <version>0.1</version>
+    <description>This is a skin I am whippping up forI am building for a generic tutorial</description>
+    <author>Matt L</author>
+    <website></website>
+    <useAjaxPlayBar>true</useAjaxPlayBar>
+    <requiredAddons>
+        <addon>splice</addon>
+    </requiredAddons>
+</skin>

@@ -1,0 +1,175 @@
+/* 
+    Document   : skin.css
+    Created on : Mar 4, 2010, 10:17:47 AM
+    Author     : user1a
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-image:url("../images/redMoons.jpg");
+    background-position:top right;
+    background-repeat:no-repeat;
+    background-color:#D4110B;
+    color:white;
+    font-family: 'Rockwell Extra Bold';
+}
+a, a:hover, a:visited{
+    color:white;
+    border:hidden;
+}
+img{
+     border:hidden;
+}
+.bodyContainer{
+    padding-top:75Px;
+    width:700Px;
+    float:left;
+}
+.gigObjDiv{
+    cursor:pointer;
+    /*width:205Px;
+    height:80Px;*/
+    padding-left: 5Px;
+    padding-top: 5Px;
+    padding-right: 15Px;
+    padding-bottom: 15Px;
+    /*background-image:url('../images/gigObjDiv.png');*/
+
+}
+.gigObjDiv_date{
+    padding-bottom:8Px;
+    font-size:22Px;
+    color:#A69337;
+}
+.gigObjDiv_link{
+    padding-bottom:8Px;
+    font-size:28Px;
+}
+.videoObjDiv{
+    cursor:pointer;
+    width:205Px;
+    height:80Px;
+    padding-left: 5Px;
+    padding-top: 5Px;
+    padding-right: 15Px;
+    padding-bottom: 15Px;
+    background-image:url('../images/gigObjDiv.png');
+
+}
+#navBarHolderDiv{
+    position:fixed;
+    top:-10Px;
+    left:0Px;
+    width:100%;
+    heigth:20Px;
+    padding:5Px;
+    z-index:1000;
+}
+#navBarHolderDiv ul{
+	margin:0;
+	padding:0;
+}
+
+#navBarHolderDiv li{
+	width:100px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+    cursor:pointer;
+}
+
+#navBarHolderDiv a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#navBarHolderDiv p{
+	padding:0px 5px;
+}
+
+#navBarHolderDiv .subtext{
+    padding-top:15px;
+}
+
+/*Menu Color Classes*/
+#navBarHolderDiv .navBar1{background:url('../images/navBar1.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar2{background: url('../images/navBar2.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar3{background: url('../images/navBar3.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar4{background: url('../images/navBar4.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar5{background: url('../images/navBar5.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar6{background: url('../images/navBar6.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar7{background: url('../images/navBar7.png') bottom left no-repeat;}
+#navBarHolderDiv .navBar8{background: url('../images/navBar8.png') bottom left no-repeat;}
+#navBarLinkDiv{
+    float:left;
+    font-size:20pt;
+    margin-left:10Px;
+}
+#navBarLinkDiv a, a:visited, a:hover{
+    color:white;
+}
+#playerBar{
+    position:fixed;
+    width:900Px;
+    top:0Px;
+    height:20Px;
+    padding:5Px;
+   
+}
+.column_450{
+    width:450Px;
+    float:left;
+    padding:10Px;
+    /*border:thin black solid;*/
+}
+.column_160{
+    width:160Px;
+    float:left;
+    padding:10Px;
+    /*border:thin black solid;*/
+}
+/* video stuff */
+.roundabout-holder {
+    list-style: none;
+    width: 100%;
+    height: 10em;
+    margin: 1em auto;
+    color:black;
+}
+.roundabout-moveable-item {
+    height: 150Px;
+    width: 200Px;
+    border: 1px dotted #999;
+    background-color: #111111;
+    font-size: 2em;
+    cursor: pointer;
+    color:black;
+}
+.roundabout-in-focus {
+    cursor: auto;
+}
+li{
+    color:black;
+}
+#rotationHolderDiv{
+    margin-top:50Px;
+    z-index:500Px;
+}
+#pageFooter{
+    width:700Px;
+    height:30Px;
+    overflow:hidden;
+    text-align:center;
+    float:left;
+}

@@ -1,0 +1,1 @@
+<input id="<?= $_THIS->FullId; ?>" name="<?= $_THIS->FullId; ?>" value="<?= $_THIS->strValue; ?>" type="<?= $_THIS->strType; ?>" <?= $_THIS->AttributesToString(); ?>/>

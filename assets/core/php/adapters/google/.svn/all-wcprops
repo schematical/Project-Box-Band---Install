@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/168/BoxBand/assets/core/php/adapters/google
+END
+_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/162/BoxBand/assets/core/php/adapters/google/_service.php
+END
+GoogleAdaptorLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/162/BoxBand/assets/core/php/adapters/google/GoogleAdaptorLibrary.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/162/BoxBand/assets/core/php/adapters/google/_enum.php
+END
+GoogleGigsAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/168/BoxBand/assets/core/php/adapters/google/GoogleGigsAdaptorService.class.php
+END
+GoogleAdaptorSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/162/BoxBand/assets/core/php/adapters/google/GoogleAdaptorSettingForm.class.php
+END
+GoogleAdaptorConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/162/BoxBand/assets/core/php/adapters/google/GoogleAdaptorConnection.class.php
+END

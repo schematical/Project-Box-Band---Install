@@ -1,0 +1,68 @@
+<?php
+class <%= $className; %>Base extends BaseEntity {
+    const TABLE_NAME = '<%= $table->name; %>';
+    const P_KEY = '<%= $pKey; %>';
+    
+    public function __construct(){
+        $this->table = DB_PREFIX . self::TABLE_NAME;
+		$this->pKey = self::P_KEY;
+    }
+	public static function LoadById($intId){
+		$sql = sprintf("SELECT * FROM %s%s WHERE <%= $pKey; %> = %s;", DB_PREFIX, self::TABLE_NAME, $intId);
+		$result = LoadDriver::query($sql);
+		while($data = mysql_fetch_assoc($result)){
+			$tObj = new <%= $table->name; %>();
+			$tObj->materilize($data);
+			return $tObj;
+		}
+	}
+	public static function LoadAll(){
+		$sql = sprintf("SELECT * FROM %s%s;", $DB_PREFIX, self::TABLE_NAME);
+		$result = LoadDriver::query($sql);
+		$coll = new BaseEntityCollection();
+		while($data = mysql_fetch_assoc($result)){
+			$tObj = new <%= $table->name; %>();
+			$tObj->materilize($data);
+			$coll->addItem($tObj);
+		}
+		return $coll;
+	}
+	public function ToXml($blnReclusive = false){
+        $xmlStr = "";
+        $xmlStr .= "<<%= $table->name; %>>";
+        <% foreach ($fields as $field){ %>
+        $xmlStr .= "<<%= $field; %>>";
+        $xmlStr .= $this-><%= $field; %>;
+        $xmlStr .= "</<%= $field; %>>";
+        <% } %>
+        if($blnReclusive){
+           //Finish FK Rel stuff
+        }
+        $xmlStr .= "</<%= $table->name; %>>";
+        return $xmlStr;
+        
+    }
+     //Get children
+    <% foreach ($childFields as $child){ %>
+    public function Get<%= tempDriver::capatilize($child->table->name); %>Arr(){
+        <%= $child->table->name; %>::loadById($this-><%= $child->name; %>);
+    }
+	<% } %>
+
+    //Load by foregin key
+    <% foreach ($parentFields as $field){ %>
+    public static function LoadCollBy<%= tempDriver::capatilize($field->name); %>(<%= $field->name; %>){
+        $sql = sprintf("SELECT * FROM <%= $table->name; %> WHERE <%= $field->name; %> = %s;", <%= $field->name; %>);
+		$result = LoadDriver::query($sql);
+		$coll = new BaseEntityCollection();
+		while($data = mysql_fetch_assoc($result)){
+			$tObj = new $table();
+			$tObj->materilize($data);
+			$coll->addItem($tObj);
+		}
+		return $coll;
+    }
+
+    <% } %>
+}
+?>

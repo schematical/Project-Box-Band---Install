@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/187/BoxBand/assets/core/php/adapters/facebook
+END
+FacebookAdaptorLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/186/BoxBand/assets/core/php/adapters/facebook/FacebookAdaptorLibrary.class.php
+END
+_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/186/BoxBand/assets/core/php/adapters/facebook/_service.php
+END
+FacebookAdaptorConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/186/BoxBand/assets/core/php/adapters/facebook/FacebookAdaptorConnection.class.php
+END
+FacebookGigsAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/186/BoxBand/assets/core/php/adapters/facebook/FacebookGigsAdaptorService.class.php
+END
+FacebookAdaptorSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/186/BoxBand/assets/core/php/adapters/facebook/FacebookAdaptorSettingForm.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/186/BoxBand/assets/core/php/adapters/facebook/_enum.php
+END

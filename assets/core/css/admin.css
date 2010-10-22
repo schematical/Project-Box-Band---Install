@@ -1,0 +1,236 @@
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+body{
+
+    background-color:#ffffff;
+    padding:0Px;
+    margin:0Px;
+    font-family: Tahoma;
+}
+.button{
+    background:#222222;
+    border:thin solid black;
+    color:white;
+    font-weight:bold;
+}
+h3{
+    color:red;
+}
+#bodyDiv{
+     padding:0Px;
+     margin:0Px;
+}
+#headerHolderDiv{
+    width:100%;
+    height:210Px;
+    background-image:url('/assets/images/projectBoxBand/headerHolderDiv.bkgd.png');
+    background-position:bottom;
+    background-repeat:repeat-x;
+    margin:0Px;
+    background-color:#222222;
+}
+#headerDiv{
+    height:210Px;
+    width:700Px;
+    background-image:url('/assets/images/projectBoxBand/projectBoxBand.logo.png');
+    margin-left:auto;
+    margin-right:auto;
+}
+#navDiv{
+    padding-top:80Px;
+    padding-right:20Px;
+}
+#navDiv a, a:visited{
+    color:white;
+    font-size:20Px;
+    font-weight:bold;
+    padding-right:10Px;
+}
+#navDiv a:hover{
+    color:red;
+ }
+.column_250{
+    float:left;
+    width:240Px;
+    padding-left:5Px;
+    padding-right:5Px;
+    padding-bottom:10Px;
+}
+.column_325{
+    float:left;
+    width:325Px;
+    padding-left:5Px;
+    padding-right:5Px;
+    padding-bottom:10Px;
+}
+.column_100{
+    float:left;
+    width:100Px;
+    padding-left:5Px;
+    padding-right:5Px;
+    padding-bottom:10Px;
+}
+#bodyContent{
+    width:760Px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#footerHolderDiv{
+    width:100%;
+    height:60Px;
+    margin:0Px;
+    background-color:#222222;
+    float:left;
+}
+#footerDiv{
+    width:760Px;
+    height:30Px;
+    padding-top:10Px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#footerDiv a{
+    color:white;
+    font-weight:normal;
+    font-size:12Pt;
+}
+
+.callToAction a:active, a:link, a:visited, a:hover{
+    font-size:18Pt;
+    color:red;
+    font-weight:bold;
+}
+.developerSignUpDiv{
+    height:500Px;
+    width:400Px;
+    background-color:white;
+    overflow:auto;
+    padding:10Px;
+}
+.signUpControlHolder{
+    width:399Px;
+    margin-bottom:20Px;
+    display:inline-block;
+}
+.signUpControl{
+    float:left;
+}
+.signUpControl input, textarea, pass{
+    background:#777777;
+}
+.signUpControl input:focus, textarea:focus, pass:focus{
+    border:thin solid black;
+}
+.signUpControlName{
+    width:100Px;
+    float:left;
+}
+.loginDiv{
+    position:absolute;
+    top:0Px;
+    padding:3Px;
+    color:white;
+    font-weight:bold;
+    text-align:right;
+    width:450Px;
+    font-size:10Pt;
+}
+.loginDiv input{
+    height:8Px;
+    width:70Px;
+    font-size:10Pt;
+}
+.loginDiv .button{
+    padding:0Px;
+    margin-top:2Px;
+    height:16Px;
+    width:70Px;
+    font-size:8Pt;
+}
+.loginDiv_lblMessage{
+    width:100Px;
+}
+.controlNameDiv{
+    width: 150Px;
+    float:left;
+}
+.controlInnerHolderDiv{
+    float:left;
+}
+.controlHolderDiv{
+    margin-top:5Px;
+    display:inline-block;
+}
+.userInfoDiv{
+    font-size:10Pt;
+}
+.userInfoDiv a{
+    font-weight:bold;
+    font-size:10Pt;
+    color:red;
+}
+#adminBodyDiv{
+    padding-top:90Px;
+}
+.subNavDiv{
+    float:left;
+    padding-right:10Px;
+
+}
+.subNavDiv a, a:visited{
+    color:white;
+    font-weight:bold;
+}
+#subNavBar{
+    width:100%;
+    display:inline-block;
+    height:40Px;
+    padding:10Px;
+    position:fixed;
+    top:40Px;
+    left:0Px;
+    background-color:#444444;
+}
+.serviceLinkDiv{
+    float:left;
+    height:10Px;
+}
+.serviceLinkDiv a, a:link, a:active, a:visited, a:hover{
+    font-size:12Pt;
+}
+.serviceActivateDiv{
+    
+}
+.navBarLinkDiv{
+    padding-right:10Px;
+    float:left;
+}
+#navBarLinkDiv a, a:visited{
+    color:white;
+    font-weight:bold;
+}
+#navBarHolderDiv{
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:40Px;
+    width:100%;
+    padding:10Px;
+    background-color:#444444;
+}
+.greyBordered{
+    margin:20Px;
+    border:thin solid #333333;
+    padding:5Px;
+    background-color:#444444;
+    color: white;
+}

@@ -1,0 +1,1 @@
+<textarea id="<?= Splice::$strId . Splice::SPLICE_POST_DATA; ?>" name="<?= Splice::$strId . Splice::SPLICE_POST_DATA; ?>" cols="<?= Splice::$intCols; ?>" rows="<?= Splice::$intRows; ?>"><?= Splice::$strSpliceHtml; ?></textarea>

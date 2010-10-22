@@ -1,0 +1,16 @@
+#splice_footerDiv{
+    position:fixed;
+    bottom:0Px;
+    left:0Px;
+    width:100%;
+    height:20Px;
+    border:thin black solid;
+    background-color: silver;
+    color:black;
+    font-size:12Px;
+    font-family: 'Times New Roman',Times,serif;
+}
+#splice_footerDiv a{
+    padding-right:10Px;
+    color:black;
+}

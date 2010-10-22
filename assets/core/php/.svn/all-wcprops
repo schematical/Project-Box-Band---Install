@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/!svn/ver/212/BoxBand/assets/core/php
+END
+CookieDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/186/BoxBand/assets/core/php/CookieDriver.class.php
+END
+CssAsset.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/169/BoxBand/assets/core/php/CssAsset.class.php
+END
+LoadDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/188/BoxBand/assets/core/php/LoadDriver.class.php
+END
+AuthDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/188/BoxBand/assets/core/php/AuthDriver.class.php
+END
+DownloadDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/186/BoxBand/assets/core/php/DownloadDriver.class.php
+END
+BaseEntityCollection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/160/BoxBand/assets/core/php/BaseEntityCollection.class.php
+END
+BaseEntity.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/186/BoxBand/assets/core/php/BaseEntity.class.php
+END
+AddonLibrarySetting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/169/BoxBand/assets/core/php/AddonLibrarySetting.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/212/BoxBand/assets/core/php/_enum.php
+END
+DataConnectionBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/160/BoxBand/assets/core/php/DataConnectionBase.class.php
+END
+_exceptions.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/188/BoxBand/assets/core/php/_exceptions.php
+END
+AddonLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/211/BoxBand/assets/core/php/AddonLibrary.class.php
+END
+ServiceDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/209/BoxBand/assets/core/php/ServiceDriver.class.php
+END
+SkinLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/169/BoxBand/assets/core/php/SkinLibrary.class.php
+END
+ApplicationBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/212/BoxBand/assets/core/php/ApplicationBase.class.php
+END
+AdminApplication.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/188/BoxBand/assets/core/php/AdminApplication.class.php
+END
+conn.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/188/BoxBand/assets/core/php/conn.php
+END
+NewsCollectionBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/173/BoxBand/assets/core/php/NewsCollectionBase.class.php
+END
+DrawableAssetBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/169/BoxBand/assets/core/php/DrawableAssetBase.class.php
+END
+SkinDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/188/BoxBand/assets/core/php/SkinDriver.class.php
+END
+JsAsset.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/169/BoxBand/assets/core/php/JsAsset.class.php
+END
+AddonDriver.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/169/BoxBand/assets/core/php/AddonDriver.class.php
+END
+MySqlDataConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/188/BoxBand/assets/core/php/MySqlDataConnection.class.php
+END
+QSParam.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/160/BoxBand/assets/core/php/QSParam.class.php
+END
+AdminPageText.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/186/BoxBand/assets/core/php/AdminPageText.class.php
+END
+SimpleTemplateParser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/188/BoxBand/assets/core/php/SimpleTemplateParser.class.php
+END

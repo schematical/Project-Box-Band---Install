@@ -1,0 +1,11 @@
+<addon>
+    <displayName>Twitter Link</displayName>
+    <version>0.1</version>
+    <author>Matt L</author>
+    <website>http://www.3villabs.com</website>
+    <description>This tool will allow a user to put a link to their twitter on the page</description>
+    <customSettingsPage></customSettingsPage>
+    <settings>
+        <setting name="TWITTERLINK_USERNAME" defaultValue="" type="text" displayName="Twitter Username"></setting>
+    </settings>
+</addon>

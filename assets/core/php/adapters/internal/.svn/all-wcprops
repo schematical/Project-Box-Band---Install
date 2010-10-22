@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal
+END
+InternalAdaptorSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal/InternalAdaptorSettingForm.class.php
+END
+_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal/_service.php
+END
+InternalAdaptorLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal/InternalAdaptorLibrary.class.php
+END
+InternalAdaptorConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal/InternalAdaptorConnection.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal/_enum.php
+END
+InternalMusicAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/internal/InternalMusicAdaptorService.class.php
+END

@@ -1,0 +1,8 @@
+CREATE TABLE `<%= DB_NAME; %>`.`<%= DB_PREFIX; %>setting` (
+  `idSetting` int(11) NOT NULL,
+  `key` varchar(128) NOT NULL,
+  `value` longtext NOT NULL,
+  `autoload` tinyint(1) NOT NULL,
+  PRIMARY KEY  (`idSetting`),
+  KEY `idSetting` (`idSetting`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;

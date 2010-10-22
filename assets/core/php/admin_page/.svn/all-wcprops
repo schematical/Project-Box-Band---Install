@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/203/BoxBand/assets/core/php/admin_page
+END
+AdminPageInput.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/AdminPageInput.class.php
+END
+ServicesPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/ServicesPage.class.php
+END
+AdminPageBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/AdminPageBase.class.php
+END
+IndexPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/IndexPage.class.php
+END
+AddonsPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/AddonsPage.class.php
+END
+AddonSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/168/BoxBand/assets/core/php/admin_page/AddonSettingForm.class.php
+END
+SkinsPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/SkinsPage.class.php
+END
+LoginPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/LoginPage.class.php
+END
+AdminPageLink.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/160/BoxBand/assets/core/php/admin_page/AdminPageLink.class.php
+END
+UserPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/186/BoxBand/assets/core/php/admin_page/UserPage.class.php
+END
+InstallPage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/203/BoxBand/assets/core/php/admin_page/InstallPage.class.php
+END

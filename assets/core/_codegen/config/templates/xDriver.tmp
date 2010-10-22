@@ -1,0 +1,36 @@
+<?php
+class <%= $className; %>XDriver extends xDriver implements iXDriver{
+	
+	public static function toXML($a){
+		$xmlStr = "";
+		$xmlStr .= "<<%= $className; %>>\n";
+	
+		<% foreach ($fields as $field){ %><% if (($field != "creDate") && ($field != "creUser") && ($field != "endDate")){ %>
+		
+			$xmlStr .= sprintf("\t<<%= $field; %>>%s</<%= $field; %>>\n", htmlspecialchars($a-><%= tempDriver::capatilize($field); %>, ENT_QUOTES));
+		
+		<% } %><% } %>
+		<% foreach ($childFields as $child){ %>
+			$b = <%=  $child->table->getQName(); %>::LoadArrayBy<%= tempDriver::capatilize($pKey); %>($a-><%= tempDriver::capatilize($child->name); %>);
+			$xmlStr .= sprintf("\t<<%= $child->name; %>>%s</<%= $child->name; %>>\n", <%= $child->table->name; %>XDriver::arrayToXML($b));
+		<% } %>
+
+		$xmlStr .= "</<%= $className; %>>\n";	
+		return $xmlStr;
+	}
+ 	public static function arrayToXML($wcArray){
+		$xmlStr = "";
+		$xmlStr .= "<<%= $className; %>s>\n";
+		foreach($wcArray as $a){
+			//send to xml function
+			$xmlStr .= self::toXML($a);
+		
+		}
+		$xmlStr .= "</<%= $className; %>s>\n";
+		return $xmlStr;
+	}
+	
+}
+
+
+?>

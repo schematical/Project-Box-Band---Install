@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/173/BoxBand/assets/core/_codegen/php
+END
+dbXMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/dbXMLParser.php
+END
+genDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/173/BoxBand/assets/core/_codegen/php/genDriver.php
+END
+tableObj.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/tableObj.php
+END
+conn.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/conn.php
+END
+tempDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/tempDriver.php
+END
+fieldObj.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/fieldObj.php
+END
+dbParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/dbParser.php
+END
+widgetTempDriver.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/widgetTempDriver.php
+END
+tempXMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/tempXMLParser.php
+END
+baseXMLParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/144/BoxBand/assets/core/_codegen/php/baseXMLParser.php
+END

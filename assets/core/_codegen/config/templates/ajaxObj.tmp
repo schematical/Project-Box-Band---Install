@@ -1,0 +1,181 @@
+function <%= $className; %>(n<%= tempDriver::capatilize($pKey); %>){
+		this.<%= $pKey; %> = n<%= tempDriver::capatilize($pKey); %>;
+		this.collection = false;
+		this.waitLoad = false;
+		this.isLoaded = false;
+		this.onload = function(){};
+		this.getId = function(){
+			return this.<%= $pKey; %>;
+		}
+		<% foreach ($childFields as $child){ %>
+		this.<%= $child->table->name; %>s = new Array();
+		<% } %>
+		this.materilize = function(node){
+				var t<%= tempDriver::capatilize($pKey); %> = readNode(node, "<%= $pKey; %>");
+				var pKey = t<%= tempDriver::capatilize($pKey); %>.firstChild.nodeValue;
+				this.<%= $pKey; %> = pKey;
+			
+				
+				<% foreach ($fields as $field){ %>
+				<% if (($field != "deleteFlag") && ($field != "creUser")){ %>
+				var t<%= tempDriver::capatilize($field); %> = readNode(node, "<%= $field; %>");
+
+				<% if (!array_key_exists($field, $childFields)){ %> 
+				this.<%= $field; %> = t<%= tempDriver::capatilize($field); %>.firstChild.nodeValue;
+				<% } %>
+				
+				
+				<% if ($fieldObjs[$field]->reference){ %> 
+				//If there is a parent relation place an easy reference to the parent
+				this.<%= $fieldObjs[$field]->reference->table->name; %> = new <%= $fieldObjs[$field]->reference->table->name; %>(t<%= tempDriver::capatilize($field); %>.firstChild.nodeValue);
+				<% } %>
+				
+				<% if ($fieldObjs[$field]->reference){ %> 
+				//If there is a child relation place an easy reference to the parent
+				this.<%= $fieldObjs[$field]->reference->table->name; %> = new <%= $fieldObjs[$field]->reference->table->name; %>(t<%= tempDriver::capatilize($field); %>.firstChild.nodeValue);
+				<% } %>
+				<% } %>
+				<% } %>
+				
+				<% foreach ($childFields as $child){ %>
+				if(this.<%= $child->table->name; %>s.length == 0){
+					var t<%= tempDriver::capatilize($child->table->name); %>Arr = readNode(node, "<%= $child->table->name; %>s");	
+					var childNodes = t<%= tempDriver::capatilize($child->table->name); %>Arr.getElementsByTagName("<%= $child->table->name; %>"); 
+					this.<%= $child->table->name; %>s = new Array();
+					for (var ii = 0; ii < childNodes.length; ii++) {
+						var tObj = new <%= $child->table->name; %>(0);
+						tObj.materilize(childNodes[ii]);
+						tObj.onload();
+						this.<%= $child->table->name; %>s[this.<%= $child->table->name; %>s.length] = tObj;
+					}
+				}
+				<% } %>
+				this.isLoaded = true;
+		}
+		
+		
+		this.loadMe = function(){
+			reqStr = baseUrl() + "ajax2/handel<%= tempDriver::capatilize($className); %>.php?";
+			reqStr += "<%= $pKey;  %>=" +  this.<%= $pKey;  %> + "&";
+			reqStr += "action=loadOne&";
+			
+			var ajaxIndex = ajaxObjects.length;
+			var tClassRef = this;
+			ajaxObjects[ajaxIndex] = new sack();
+			ajaxObjects[ajaxIndex].requestFile = reqStr;	// Specifying which file to get
+			ajaxObjects[ajaxIndex].onCompletion = function(){ tClassRef.handleReceiveLoadOne(ajaxIndex);
+			};	// Specify function that will be executed after file has been found
+			ajaxObjects[ajaxIndex].runAJAX();		// Execute AJAX function
+			
+			if(this.waitLoad == false){
+				return;
+			}else{
+				while(ajaxObjects[ajaxIndex].xmlhttp.readyState != 2){
+					//var t=setTimeout("alert('5 seconds!')",250)
+
+					//Wait
+				}
+				return;
+			}
+			
+		}
+		this.handleReceiveLoadOne = function(ajaxIndex){
+			var xmldoc = ajaxObjects[ajaxIndex].responseXML;
+			var nodes = xmldoc.getElementsByTagName("<%= $className; %>"); 
+			for (i = 0; i < nodes.length; i++) {
+				this.materilize(nodes[i]);
+			}
+			this.onload();
+
+		}
+		
+		this.saveMe = function(){
+			reqStr = baseUrl() + "ajax2/handel<%= tempDriver::capatilize($className); %>.php?";
+			reqStr += "<%= $pKey;  %>=" +  this.<%= $pKey;  %> + "&";
+			reqStr += "action=saveOne&";
+			<% foreach ($fieldObjs as $field){ %>
+			<% if ($field->name != $pKey){ %>
+			reqStr += "<%= $field->name;  %>=" + this.<%= $field->name;  %> + "&";
+			<% } %><% } %>
+			var ajaxIndex = ajaxObjects.length;
+			var tClassRef = this;
+			ajaxObjects[ajaxIndex] = new sack();
+			ajaxObjects[ajaxIndex].requestFile = reqStr;	// Specifying which file to get
+			ajaxObjects[ajaxIndex].onCompletion = function(){ tClassRef.handleReceiveSaveOne(ajaxIndex);
+			};	// Specify function that will be executed after file has been found
+			ajaxObjects[ajaxIndex].runAJAX();		// Execute AJAX function
+		}
+		this.handleReceiveSaveOne = function(ajaxIndex){
+			//add in any extra save functionality right here
+			
+			//then call load to returned xml
+			this.handleReceiveLoadOne(ajaxIndex); 
+		}
+		
+		this.loadAll = function(){
+				
+				reqStr = baseUrl() + "ajax2/handel<%= tempDriver::capatilize($className); %>.php?";
+				reqStr += "action=loadAll";
+				
+				var ajaxIndex = ajaxObjects.length;
+				var tClassRef = this;
+				ajaxObjects[ajaxIndex] = new sack();
+				ajaxObjects[ajaxIndex].requestFile = reqStr;	// Specifying which file to get
+				ajaxObjects[ajaxIndex].onCompletion = function(){ tClassRef.handleReceiveloadAll(ajaxIndex);//  this.handleReceiveLoad(ajaxIndex); 
+				};	// Specify function that will be executed after file has been found
+				ajaxObjects[ajaxIndex].runAJAX();		// Execute AJAX function
+				
+			}
+			
+			this.handleReceiveloadAll = function(ajaxIndex){
+			var xmldoc = ajaxObjects[ajaxIndex].responseXML;
+			var nodes = xmldoc.getElementsByTagName("<%= $className; %>"); 
+			var returnArr = new Array();
+			for (i = 0; i < nodes.length; i++) {
+				var tObj = new <%= $className; %>(0);
+				tObj.materilize(nodes[i]);
+				tObj.onload();
+				returnArr[returnArr.length] = tObj;
+			}
+			this.collection = returnArr;
+			this.onload();
+
+		}
+		this.toString = function(){
+			var tStr;
+			tStr = "----------------------<%= $className; %>------------------------------<br/>";
+			<% foreach ($fields as $field){ %>
+				tStr += this.<%= $field; %> + "<br/>";
+			<% } %>
+			tStr += "-----------------CHILD:<%= $child->table->name; %>------------------------------<br/>";
+			<% foreach ($childFields as $child){ %>
+				for(var i=0; i < this.<%= $child->table->name; %>s.length; i++){
+					tStr += this.<%= $child->table->name; %>s[i].toString() + "<br/>";
+				}
+			<% } %>
+			return tStr;
+		}
+		
+		//LOAD ARRAY FUNCTIONS
+		<% foreach ($parentFields as $field){ %>
+			this.loadArrayBy<%= tempDriver::capatilize($field->name); %> = function(<%= $field->name; %>){
+				
+				reqStr = baseUrl() + "ajax2/handel<%= tempDriver::capatilize($className); %>.php?";
+				reqStr += "<%= $field->name;  %>=" +  <%= $field->name;  %> + "&";
+				reqStr += "action=loadArrayBy<%= tempDriver::capatilize($field->name); %>";
+				
+				var ajaxIndex = ajaxObjects.length;
+				var tClassRef = this;
+				ajaxObjects[ajaxIndex] = new sack();
+				ajaxObjects[ajaxIndex].requestFile = reqStr;	// Specifying which file to get
+				ajaxObjects[ajaxIndex].onCompletion = function(){ 
+					tClassRef.handleReceiveloadAll(ajaxIndex);
+					//tClassRef.handleReceiveloadArrayBy<%= tempDriver::capatilize($field->name); %>(ajaxIndex); 
+				};	// Specify function that will be executed after file has been found
+				ajaxObjects[ajaxIndex].runAJAX();		// Execute AJAX function
+				
+			}
+			
+		<% } %>
+		
+	}

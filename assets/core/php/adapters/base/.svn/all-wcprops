@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/base
+END
+VideoAdaptorServiceBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/168/BoxBand/assets/core/php/adapters/base/VideoAdaptorServiceBase.class.php
+END
+AdaptorSettingFormText.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/168/BoxBand/assets/core/php/adapters/base/AdaptorSettingFormText.class.php
+END
+GigsAdaptorServiceBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/168/BoxBand/assets/core/php/adapters/base/GigsAdaptorServiceBase.class.php
+END
+AdaptorServiceBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/168/BoxBand/assets/core/php/adapters/base/AdaptorServiceBase.class.php
+END
+AdaptorConnectionBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/144/BoxBand/assets/core/php/adapters/base/AdaptorConnectionBase.class.php
+END
+NewsAdaptorServiceBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/173/BoxBand/assets/core/php/adapters/base/NewsAdaptorServiceBase.class.php
+END
+AdaptorLibraryBase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/base/AdaptorLibraryBase.class.php
+END

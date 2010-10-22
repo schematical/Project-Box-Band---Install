@@ -1,0 +1,7 @@
+<?php
+//Work!
+<% foreach ($tables as $t){ %>
+ApplicationBase::$arrAutoLoadedClasses['<%= tempDriver::capatilize($t->name); %>'] = DATALAYER_DIR . '/<%= tempDriver::capatilize($t->name); %>.php';
+<% } %>
+
+?>

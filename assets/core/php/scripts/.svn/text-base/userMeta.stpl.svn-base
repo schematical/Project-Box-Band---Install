@@ -1,0 +1,7 @@
+CREATE TABLE `<%= DB_NAME; %>`.`<%= DB_PREFIX; %>userMeta` (
+  `idUserMeta` int(11) NOT NULL,
+  `idUser` int(11) NOT NULL,
+  `key` varchar(64) NOT NULL,
+  `value` longtext NOT NULL,
+  PRIMARY KEY  (`idUserMeta`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

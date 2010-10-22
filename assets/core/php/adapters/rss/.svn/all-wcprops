@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss
+END
+_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/_service.php
+END
+RssAdaptorConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/RssAdaptorConnection.class.php
+END
+RssAdaptorSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/RssAdaptorSettingForm.class.php
+END
+RssMusicAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/RssMusicAdaptorService.class.php
+END
+RssNewsAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/RssNewsAdaptorService.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/_enum.php
+END
+RssAdaptorLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/209/BoxBand/assets/core/php/adapters/rss/RssAdaptorLibrary.class.php
+END

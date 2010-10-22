@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare
+END
+_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare/_service.php
+END
+LinkshareAdaptorConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare/LinkshareAdaptorConnection.class.php
+END
+LinkshareMusicAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare/LinkshareMusicAdaptorService.class.php
+END
+LinkshareAdaptorSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare/LinkshareAdaptorSettingForm.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare/_enum.php
+END
+LinkshareAdaptorLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/linkshare/LinkshareAdaptorLibrary.class.php
+END

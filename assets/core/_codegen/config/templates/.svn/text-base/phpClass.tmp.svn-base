@@ -1,0 +1,9 @@
+<?php
+require_once(DATALAYER_GEN_DIR . "/<%= $className; %>Base.php");
+class <%= $className; %> extends <%= $className; %>Base {
+
+
+}
+
+
+?>

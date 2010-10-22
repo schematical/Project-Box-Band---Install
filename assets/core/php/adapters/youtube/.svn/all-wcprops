@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube
+END
+_service.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube/_service.php
+END
+YoutubeAdaptorConnection.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/144/BoxBand/assets/core/php/adapters/youtube/YoutubeAdaptorConnection.class.php
+END
+YoutubeAdaptorSettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube/YoutubeAdaptorSettingForm.class.php
+END
+_enum.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube/_enum.php
+END
+newXMLDocument.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube/newXMLDocument.xml
+END
+YoutubeVideoAdaptorService.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube/YoutubeVideoAdaptorService.class.php
+END
+YoutubeAdaptorLibrary.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/160/BoxBand/assets/core/php/adapters/youtube/YoutubeAdaptorLibrary.class.php
+END

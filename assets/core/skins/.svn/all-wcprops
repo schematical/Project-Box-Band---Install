@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repos/!svn/ver/212/BoxBand/assets/core/skins
+END
+xml_resp_end.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/144/BoxBand/assets/core/skins/xml_resp_end.tpl.php
+END
+form_start.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/170/BoxBand/assets/core/skins/form_start.tpl.php
+END
+footer.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/144/BoxBand/assets/core/skins/footer.tpl.php
+END
+xml_resp_start.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/144/BoxBand/assets/core/skins/xml_resp_start.tpl.php
+END
+header.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/144/BoxBand/assets/core/skins/header.tpl.php
+END
+form_end.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/170/BoxBand/assets/core/skins/form_end.tpl.php
+END
